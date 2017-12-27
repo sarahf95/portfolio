@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
 body {
     margin: 10px;
     padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: 'Lato', sans-serif;    
 }
 
 
 .sf {
-    width: 505px;
+    width: 40vw;
     align-content: top;
     display: inline-block;
     float: left;
@@ -27,12 +30,16 @@ ul {
     list-style-type: none;
     display: inline-block;
     float: right;
+    font-weight: 300;
 }
 
 h1 {
     display: inline-block;
     float: left;
     padding-bottom: 20px;
+    font-weight: 200;
+    padding-top: 14px;
+    margin-top: 0px;
 }
 
 li a {
@@ -41,3 +48,35 @@ li a {
     text-decoration: none;
     color: black;
 }
+
+li a:hover {
+    color: gray;
+}
+
+p {
+    font-weight: 300;
+}
+
+.footer-wrapper {  
+    margin: 0 auto;
+    max-width: 96px;
+    margin-top: 100vh;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.footer {
+   width: 2vw;
+   align-content: center;
+   padding-left: 3px;
+   padding-right: 3px;
+}
+
+.footer:hover .img-top {
+    display: inline
+}
+
+/* .img-top {
+    display: none;
+} */
+
