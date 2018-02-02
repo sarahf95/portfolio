@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
 
+
+@font-face {
+    font-family: 'Audrey';
+    src: url('font/Audrey/Audrey-Normal.otf'); /* IE9 Compat Modes */
+    /* src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 
+         url('webfont.woff2') format('woff2'), /* Super Modern Browsers 
+         url('webfont.woff') format('woff'), /* Pretty Modern Browsers 
+         url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS /
+         url('webfont.svg#svgFontName') format('svg'); Legacy iOS */
+  }
+  @font-face {
+    font-family: 'Audrey Bold';
+    src: url('font/Audrey/Audrey-Bold.otf'); /* IE9 Compat Modes */
+    /* src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 
+         url('webfont.woff2') format('woff2'), /* Super Modern Browsers 
+         url('webfont.woff') format('woff'), /* Pretty Modern Browsers 
+         url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS /
+         url('webfont.svg#svgFontName') format('svg'); Legacy iOS */
+  }
+
+
 body {
     margin: 10px;
     padding: 10px;
@@ -33,7 +54,7 @@ ul {
     font-weight: 300;
 }
 
-h1 {
+h1.header {
     display: inline-block;
     float: left;
     padding-bottom: 20px;
@@ -72,11 +93,68 @@ p {
    padding-right: 3px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+ 
+}
+
 .footer:hover .img-top {
     display: inline
 }
 
+.landing-page {
+    align-content: center;
+    text-align: center;
+    padding-top: 30vh;
+}
+
+.landing-text {
+    padding-bottom: 20px;
+}
+
+.landing-footer{
+    padding-top: 15px;
+    align-content: center;
+    margin:0 auto;
+    margin-top: 10px;
+
+}
+
+.button{
+    height: 30px;
+    width: 80px;
+    background-color: black;
+    border-radius: 10px;
+    padding:5px;
+    margin: 0 auto;
+    margin-bottom: 20 px; 
+}
+
+.button-text{
+    top: 50%;
+    position: relative;
+    transform: translateY(20%)
+}
+
+a.button-link:hover{
+    color: lightgray;
+}
+a:active{
+    color: pink;
+}
 /* .img-top {
     display: none;
 } */
+h1.title{
+    color: black;
+}
 
+.landing-page-wrapper{
+    /* background-image: url("media/SFinSF.jpg"); */
+    font-family: 'Audrey', sans-serif;
+}
+
+.landing-header{
+font-family: 'Audrey Bold', sans-serif;
+}
