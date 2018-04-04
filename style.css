@@ -78,7 +78,7 @@ li a {
 }
 
 li a:hover {
-  color: gray;
+  color: lightgray;
 }
 
 p {
@@ -91,10 +91,12 @@ p {
   margin-top: 100vh;
   padding-bottom: 10px;
   padding-top: 10px;
+  vertical-align: middle;
+  display: inline;
 }
 
 .footer {
-  width: 2vw;
+  width: 25px;
   align-content: center;
   padding-left: 3px;
   padding-right: 3px;
@@ -123,52 +125,40 @@ a {
 }
 
 .landing-footer {
-  padding-top: 15px;
   align-content: center;
   margin: 0 auto;
-  margin-top: 10px;
-  width: 50%;
+  padding-left: 20px;
   float: right;
 }
 
 .button-background {
-  height: 30px;
+  height: 20px;
   width: 80px;
-  background-color: black;
+  background-color: white;
   border-radius: 10px;
   padding: 5px;
   float: right;
 }
 
 .button {
-  margin: 0px;
-
-  height: 30px;
-  width: 80px;
-  /* background-color: black; */
-  border-radius: 10px;
   padding: 5px;
-
   width: 50%;
   float: right;
+  display: inline-block;
 }
 
 .button-text {
-  /* top: 50%; */
-  /* position: relative; */
-  /* transform: translateY(20%); */
   text-align: center;
+  color: black;
 }
 
-a.button-link:hover {
+.button-text:hover {
   color: lightgray;
 }
 a:active {
   color: pink;
 }
-/* .img-top {
-    display: none;
-} */
+
 h1.title {
   color: white;
 }
@@ -183,7 +173,8 @@ h1.title {
   border: 0px;
   height: 100vh;
   color: white;
-  padding: 30px;
+  padding: 50px;
+  padding-right: 70px;
 
   /* height: 100vh; */
 }
@@ -199,6 +190,8 @@ h1.title {
 .wrapper {
   align-content: center;
   display: block;
+  text-align: center;
+  width: 50%;
 }
 
 .overall-wrapper {
