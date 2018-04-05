@@ -20,10 +20,6 @@
 }
 
 body {
-  /* margin: 10px; */
-  /* padding: 10px; */
-  /* padding-left: 70px; */
-  /* padding-right: 70px; */
   font-family: "Lato", sans-serif;
   border: 0px;
   margin: 0px;
@@ -118,7 +114,7 @@ a {
 }
 .landing-text {
   padding-bottom: 20px;
-  width: 50%;
+  /* width: 50%; */
   margin-right: 0px;
   float: right;
   /* padding-right: 50px; */
@@ -196,5 +192,60 @@ h1.title {
 
 .overall-wrapper {
   text-align: right;
-  widows: 60%;
+  width: 60%;
+  float: right;
+}
+
+@media only screen and (max-width: 768px) {
+  * {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 40px;
+    text-align: left;
+    float: left;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  i {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .overall-wrapper {
+    text-align: left;
+    float: left;
+  }
+
+  .landing-page {
+    padding-top: 15vh;
+  }
+
+  .landing-page-wrapper {
+    /* background-image: url("media/SFinSF.jpg"); */
+    background-image: url("media/sfbg.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  .button {
+    float: left;
+  }
+
+  .button-background {
+    float: left;
+    margin-top: 10px;
+  }
+
+  html {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
 }
