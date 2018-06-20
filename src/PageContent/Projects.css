@@ -3,6 +3,7 @@
   white-space: nowrap;
   vertical-align: bottom;
   height: 100vh;
+  width: auto;
 }
 
 .project-img {
@@ -39,11 +40,13 @@
 }
 #ampr {
   background-image: url("../media/ampr.png");
-  height: 350px;
-  width: 550px;
+  height: 360px;
+  width: 560px;
 }
 #ampr:hover {
   background-image: url("../media/ampr-hover.png");
+  height: 360px;
+  width: 560x;
 }
 
 #mealmatch {
@@ -53,6 +56,8 @@
 }
 #mealmatch:hover {
   background-image: url("../media/mealmatch-hover.png");
+  height: 350px;
+  width: 550px;
 }
 
 #caffeinade {
@@ -62,6 +67,8 @@
 }
 #caffeinade:hover {
   background-image: url("../media/caffeinade-hover.png");
+  height: 350px;
+  width: 550px;
 }
 #yumme {
   background-image: url("../media/yumme.png");
@@ -69,5 +76,7 @@
   width: 500px;
 }
 #yumme:hover {
+  height: 350px;
+  width: 550px;
   background-image: url("../media/yumme-hover.png");
 }

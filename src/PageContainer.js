@@ -2,11 +2,15 @@ import React, { Component } from "react";
 import "./App.css";
 import PageContent from "./PageContent";
 import Nav from "./Nav";
+import SocialMedia from "./SocialMedia";
 
 class PageContainer extends Component {
   render() {
     return (
       <div>
+        <div className="social-media-wrapper">
+          <SocialMedia />
+        </div>
         <div className="nav-wrapper">
           <Nav content={this.props.content} />
         </div>

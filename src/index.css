@@ -10,5 +10,6 @@ body {
 .page-content-wrapper {
   display: inline-block;
   width: 60vw;
+  overflow-x: visible;
   vertical-align: top;
 }

@@ -6,10 +6,10 @@ import mealmatch from "../media/mealmatch.png";
 import yumme from "../media/yumme.png";
 import "./Projects.css";
 
-class Hello extends Component {
+class Projects extends Component {
   render() {
     return (
-      <div className="hello">
+      <div>
         <div className="projects">
           <div id="amazon" className="project-img" />
           <div id="ampr" className="project-img" />
@@ -22,4 +22,4 @@ class Hello extends Component {
   }
 }
 
-export default Hello;
+export default Projects;
