@@ -1,17 +1,39 @@
 ul {
   list-style-type: none;
   text-align: left;
+  color: #bdbdbd;
 }
 
 li {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 40px;
   font-family: Arial, Helvetica, sans-serif;
+  color: #bdbdbd;
 }
 
-ul li:hover,
-ul li.active a {
+a {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+ul a:hover {
   cursor: pointer;
-  color: gray;
+  color: black;
+}
+
+.underline {
+  background-color: black;
+  width: 120px;
+  height: 7px;
+}
+
+.active {
+  color: black;
+}
+
+.no-underline {
+  background-color: transparent;
 }

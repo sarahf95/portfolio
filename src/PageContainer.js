@@ -8,7 +8,7 @@ class PageContainer extends Component {
     return (
       <div>
         <div className="nav-wrapper">
-          <Nav />
+          <Nav content={this.props.content} />
         </div>
         <div className="page-content-wrapper">
           <PageContent content={this.props.content} />
