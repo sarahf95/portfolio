@@ -1,0 +1,10 @@
+.projects {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.project-img {
+  display: inline-block;
+  width: 400px;
+  padding: 30px;
+}

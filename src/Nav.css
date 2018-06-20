@@ -1,0 +1,17 @@
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li:hover,
+ul li.active a {
+  cursor: pointer;
+  color: gray;
+}

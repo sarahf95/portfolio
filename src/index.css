@@ -1,0 +1,12 @@
+body {
+  padding: 50px;
+}
+
+.nav-wrapper {
+  display: inline-block;
+  width: 30vw;
+}
+
+.page-content-wrapper {
+  display: inline-block;
+}
