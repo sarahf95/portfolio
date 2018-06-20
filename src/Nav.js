@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import resume from "./media/resume.pdf";
 import "./Nav.css";
 
 class Nav extends Component {
@@ -18,7 +19,9 @@ class Nav extends Component {
             <Link to={"/research"}>RESEARCH</Link>
           </li>
           <li>
-            <Link to={"/resume"}>RESUME</Link>
+            <Link to={resume} target="_blank">
+              RESUME
+            </Link>
           </li>
           <li>
             <Link to={"/about"}>ABOUT</Link>

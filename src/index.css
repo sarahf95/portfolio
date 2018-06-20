@@ -9,4 +9,6 @@ body {
 
 .page-content-wrapper {
   display: inline-block;
+  width: 60vw;
+  vertical-align: top;
 }

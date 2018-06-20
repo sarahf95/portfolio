@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "American Typerwriter";
+  src: url("../media/font/AmericanTypewriterRegular.ttf");
+}
+
+.hello-paragraph {
+  font-size: 60px;
+  font-family: "American Typewriter", serif;
+  text-align: left;
+  width: 55vw;
+  margin-left: 5vw;
+  vertical-align: center;
+}
