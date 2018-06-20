@@ -11,11 +11,11 @@ class Hello extends Component {
     return (
       <div className="hello">
         <div className="projects">
-          <img className="project-img" src={amazon} />
-          <img className="project-img" src={ampr} />
-          <img className="project-img" src={mealmatch} />
-          <img className="project-img" src={caffeinade} />
-          <img className="project-img" src={yumme} />
+          <div id="amazon" className="project-img" />
+          <div id="ampr" className="project-img" />
+          <div id="mealmatch" className="project-img" />
+          <div id="caffeinade" className="project-img" />
+          <div id="yumme" className="project-img" />
         </div>
       </div>
     );
