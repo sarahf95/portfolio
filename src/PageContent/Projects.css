@@ -80,3 +80,81 @@
   width: 550px;
   background-image: url("../media/yumme-hover.png");
 }
+
+@media only screen and (max-width: 768px) {
+  .projects {
+    overflow: scroll;
+    white-space: normal;
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .project-img {
+    display: block;
+    width: 60vw;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  #amazon {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 50vw;
+    height: 30vh;
+  }
+
+  #amazon:hover {
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 30vh;
+  }
+  #ampr {
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 30vh;
+  }
+  #ampr:hover {
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 30vh;
+  }
+
+  #mealmatch {
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 30vh;
+  }
+  #mealmatch:hover {
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 30vh;
+  }
+
+  #caffeinade {
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 30vh;
+  }
+  #caffeinade:hover {
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 30vh;
+  }
+  #yumme {
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 30vh;
+  }
+  #yumme:hover {
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 30vh;
+  }
+}

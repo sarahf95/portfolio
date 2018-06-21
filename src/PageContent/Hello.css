@@ -12,7 +12,10 @@
   vertical-align: center;
 }
 
-.hello {
-  overflow: scroll;
-  height: 1000px;
+@media only screen and (max-width: 768px) {
+  .hello-paragraph {
+    font-size: 40px;
+    text-align: center;
+    width: 80vw;
+  }
 }

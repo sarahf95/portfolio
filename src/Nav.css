@@ -37,3 +37,52 @@ ul a:hover {
 .no-underline {
   background-color: transparent;
 }
+
+.close {
+  display: none;
+}
+.collasped-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    text-align: center;
+    width: 90vw;
+  }
+  ul {
+    padding-left: 0px;
+    /* text-align: center; */
+  }
+  li {
+    font-size: 20px;
+  }
+  .underline {
+    background-color: black;
+    width: 60px;
+    height: 5px;
+  }
+  .close {
+    display: block;
+    width: 20px;
+    float: left;
+    margin-left: -50px;
+    margin-top: 20px;
+    margin-right: 30px;
+  }
+  .close-icon {
+    width: 20px;
+  }
+  .collasped-nav {
+    display: block;
+    width: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .collasped-nav-wrapper {
+    text-align: center;
+    margin: 0 auto;
+    margin-left: -50px;
+  }
+}
