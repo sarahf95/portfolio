@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./SocialMedia.css";
-import github from "./media/github-gray.png";
-import linkedin from "./media/linkedin-gray.png";
-import email from "./media/email-gray.png";
+import github from "./media/github.svg";
+import linkedin from "./media/linkedin.png";
+import email from "./media/email.png";
 
 class About extends Component {
   render() {

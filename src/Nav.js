@@ -39,7 +39,7 @@ class Nav extends Component {
               />
             </Link>
           </li>
-          <li>
+          {/* <li>
             {" "}
             <Link
               to={"/research"}
@@ -54,7 +54,7 @@ class Nav extends Component {
                 }
               />
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link to={resume} target="_blank">
               RESUME

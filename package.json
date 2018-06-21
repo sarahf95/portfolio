@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.4.1"
+    "react": "^16.4.1",
+    "react-vertical-timeline-component": "^2.1.2"
   },
   "devDependencies": {
     "react-dom": "^16.4.1",

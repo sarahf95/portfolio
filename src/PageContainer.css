@@ -1,0 +1,10 @@
+.header-wrapper {
+  display: inline-block;
+  width: 50vw;
+}
+
+.social-media-wrapper {
+  display: inline;
+  display: inline-block;
+  width: 40vw;
+}
