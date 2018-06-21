@@ -1,0 +1,39 @@
+.about {
+  width: 60vw;
+  text-align: left;
+  margin-top: 30px;
+}
+.grad-pic {
+  width: 20vw;
+  vertical-align: middle;
+}
+
+.about-me-paragraph {
+  display: inline-block;
+  width: 30vw;
+  vertical-align: middle;
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-me-paragraph {
+    font-size: 15px;
+    display: block;
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .grad-pic {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 60vw;
+  }
+  .about {
+    overflow: scroll;
+    width: 90vw;
+    align-content: center;
+  }
+}
