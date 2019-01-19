@@ -1,15 +1,19 @@
 @font-face {
-  font-family: "American Typerwriter";
-  src: url("../media/font/AmericanTypewriterRegular.ttf");
+  font-family: 'American Typerwriter';
+  src: url('../media/font/AmericanTypewriterRegular.ttf');
 }
 
 .hello-paragraph {
   font-size: 60px;
-  font-family: "American Typewriter", serif;
+  font-family: 'American Typewriter', serif;
   text-align: left;
   width: 55vw;
   margin-left: 5vw;
   vertical-align: center;
+}
+
+.imdb-link {
+  color: #f4c434;
 }
 
 @media only screen and (max-width: 768px) {

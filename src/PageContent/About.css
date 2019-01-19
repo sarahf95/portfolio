@@ -1,27 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
 .about {
   width: 60vw;
   text-align: left;
   margin-top: 30px;
+  overflow: hidden;
 }
 .grad-pic {
   width: 20vw;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .about-me-paragraph {
   display: inline-block;
   width: 30vw;
-  vertical-align: middle;
+  height: 30vw;
+  vertical-align: top;
   margin-left: 50px;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  overflow: scroll;
 }
 
 @media only screen and (max-width: 768px) {
   .about-me-paragraph {
-    font-size: 15px;
+    font-size: 16px;
     display: block;
     width: 60vw;
+    height: auto;
     margin: 0 auto;
     margin-top: 20px;
   }
